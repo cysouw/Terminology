@@ -1,0 +1,19 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\nonumberline Preface}{v}{chapter*.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Form and meaning \newline \smaller \textit {Setting the perspective on language}}{1}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Doculect and languoid \newline \smaller \textit {Disentangling the concept of a language}}{3}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Utterance and construction \newline \smaller \textit {Language-specific meta-concepts}}{5}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Comparative concept and counterpart \newline \smaller \textit {Comparing languages}}{9}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Shape, strategy and pattern \newline \smaller \textit {The structure of a typology}}{13}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Metrics and semantic space \newline \smaller \textit {Mapping language diversity}}{19}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Homology and stratum \newline \smaller \textit {Historical language comparison}}{21}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {8}Character and grapheme \newline \smaller \textit {Writing systems across languages}}{23}{chapter.8}

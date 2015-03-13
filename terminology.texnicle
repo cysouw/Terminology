@@ -1,0 +1,383 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE database SYSTEM "file:///System/Library/DTDs/CoreData.dtd">
+
+<database>
+    <databaseInfo>
+        <version>134481920</version>
+        <UUID>CF780D25-7A7D-448E-8384-FC764F8276DC</UUID>
+        <nextObjectID>123</nextObjectID>
+        <metadata>
+            <plist version="1.0">
+                <dict>
+                    <key>NSPersistenceFrameworkVersion</key>
+                    <integer>526</integer>
+                    <key>NSStoreModelVersionHashes</key>
+                    <dict>
+                        <key>Bookmark</key>
+                        <data>
+		DomRcT1vfHnhCpD4hL1oyiuZNfU1acRc5Sa8FV4eSzw=
+		</data>
+                        <key>File</key>
+                        <data>
+		Ow+iGdBKIP6AijDPzNT2dGmjwrSu3RsK6bNp03vZ4jY=
+		</data>
+                        <key>Folder</key>
+                        <data>
+		Grij332X1rMYXqmN3lNQISkMHRf2/DdXELst812WKGE=
+		</data>
+                        <key>Project</key>
+                        <data>
+		WeS8dr2dP74D2G4eO7AvRrVbufOi0GR7gpB57bjBiG8=
+		</data>
+                        <key>ProjectItem</key>
+                        <data>
+		WtaPU9rm7J0aQWjjEf7sfCn2HZlql+cuYhRsDffn51Q=
+		</data>
+                        <key>Settings</key>
+                        <data>
+		XWN4f49S6jLtf2g0hZok72bJ408wwyCX3ADwssmzwt0=
+		</data>
+                        <key>TeXFile</key>
+                        <data>
+		6CluIfoPedvZZaGidwNyxpUQEVkzbR2uHZVaqhL5Vl8=
+		</data>
+                        <key>UISettings</key>
+                        <data>
+		LjQtSuAfnBkFegfHijDskbOlefBAUNYPeVWd6Ou9Ngw=
+		</data>
+                    </dict>
+                    <key>NSStoreModelVersionHashesVersion</key>
+                    <integer>3</integer>
+                    <key>NSStoreModelVersionIdentifiers</key>
+                    <array>
+                        <string>15</string>
+                    </array>
+                    <key>kMDItemKeywords</key>
+                    <array>
+                        <string>terminology</string>
+                    </array>
+                </dict>
+            </plist>
+        </metadata>
+    </databaseInfo>
+    <object type="SETTINGS" id="z102">
+        <attribute name="stoponerror" type="bool">1</attribute>
+        <attribute name="showstatusbar" type="bool">1</attribute>
+        <attribute name="outputdirectory" type="string"></attribute>
+        <attribute name="openconsole" type="bool">0</attribute>
+        <attribute name="ncompile" type="int16">3</attribute>
+        <attribute name="language" type="string">Multilingual</attribute>
+        <attribute name="enginename" type="string">xelatex</attribute>
+        <attribute name="dops2pdf" type="bool">1</attribute>
+        <attribute name="doliveupdate" type="bool">1</attribute>
+        <attribute name="dobibtex" type="bool">1</attribute>
+        <attribute name="bibtexcommand" type="string">bibtex</attribute>
+        <relationship name="project" type="1/1" destination="PROJECT" idrefs="z104"></relationship>
+    </object>
+    <object type="UISETTINGS" id="z103">
+        <attribute name="pdfviewscrollrect" type="string">{{0, 5376.3176264026788}, {490, 720.89005235396871}}</attribute>
+        <attribute name="showpdfthumbnails" type="bool">0</attribute>
+        <attribute name="selectedcontrolstab" type="int16">0</attribute>
+        <attribute name="maxoutlinedepth" type="int16">7</attribute>
+        <attribute name="logoutputlevel" type="int16">0</attribute>
+        <attribute name="editorwidth" type="float">628</attribute>
+        <attribute name="controlswidth" type="float">220</attribute>
+        <attribute name="consoleview" type="int16">0</attribute>
+        <relationship name="project" type="1/1" destination="PROJECT" idrefs="z104"></relationship>
+    </object>
+    <object type="PROJECT" id="z104">
+        <attribute name="type" type="string">PDFLaTeX</attribute>
+        <attribute name="name" type="string">terminology</attribute>
+        <attribute name="folder" type="string">/Users/cysouw/Documents/github/Writing/Terminology</attribute>
+        <relationship name="mainfile" type="1/1" destination="FILE" idrefs="z109"></relationship>
+        <relationship name="selected" type="1/1" destination="FILE" idrefs="z123"></relationship>
+        <relationship name="settings" type="1/1" destination="SETTINGS" idrefs="z102"></relationship>
+        <relationship name="uisettings" type="1/1" destination="UISETTINGS" idrefs="z103"></relationship>
+        <relationship name="items" type="0/0" destination="PROJECTITEM" idrefs="z115 z119 z123 z105 z109 z116 z106 z112 z108 z121 z113 z111 z122 z110 z118 z117 z120"></relationship>
+    </object>
+    <object type="TEXFILE" id="z105">
+        <attribute name="visiblerect" type="string">{{0, 259}, {586, 817}}</attribute>
+        <attribute name="cursor" type="string">{3908, 0}</attribute>
+        <attribute name="wasopen" type="bool">4</attribute>
+        <attribute name="lasteditdate" type="date">444328894.08615201711654663086</attribute>
+        <attribute name="istext" type="bool">1</attribute>
+        <attribute name="fileloaddate" type="date">444328893.86641299724578857422</attribute>
+        <attribute name="extension" type="string">tex</attribute>
+        <attribute name="sortindex" type="int32">16</attribute>
+        <attribute name="name" type="string">introduction.tex</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="filepath" type="string">./chapters/introduction.tex</attribute>
+        <relationship name="parent" type="1/1" destination="PROJECTITEM" idrefs="z106"></relationship>
+        <relationship name="project" type="1/1" destination="PROJECT" idrefs="z104"></relationship>
+        <relationship name="mainfileofproject" type="1/1" destination="PROJECT"></relationship>
+        <relationship name="children" type="0/0" destination="PROJECTITEM"></relationship>
+        <relationship name="bookmarks" type="0/0" destination="BOOKMARK"></relationship>
+    </object>
+    <object type="FOLDER" id="z106">
+        <attribute name="sortindex" type="int32">7</attribute>
+        <attribute name="name" type="string">chapters</attribute>
+        <attribute name="isexpanded" type="bool">1</attribute>
+        <relationship name="parent" type="1/1" destination="PROJECTITEM"></relationship>
+        <relationship name="project" type="1/1" destination="PROJECT" idrefs="z104"></relationship>
+        <relationship name="children" type="0/0" destination="PROJECTITEM" idrefs="z123 z122 z105 z120 z108 z119 z121 z115 z113"></relationship>
+    </object>
+    <object type="TEXFILE" id="z108">
+        <attribute name="visiblerect" type="string">{{0, 1331}, {586, 772}}</attribute>
+        <attribute name="cursor" type="string">{9804, 0}</attribute>
+        <attribute name="wasopen" type="bool">2</attribute>
+        <attribute name="lasteditdate" type="date">443368765.70480602979660034180</attribute>
+        <attribute name="istext" type="bool">1</attribute>
+        <attribute name="fileloaddate" type="date">444328893.87067002058029174805</attribute>
+        <attribute name="extension" type="string">tex</attribute>
+        <attribute name="sortindex" type="int32">14</attribute>
+        <attribute name="name" type="string">languageSpecificTopics.tex</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="filepath" type="string">./chapters/languageSpecificTopics.tex</attribute>
+        <relationship name="parent" type="1/1" destination="PROJECTITEM" idrefs="z106"></relationship>
+        <relationship name="project" type="1/1" destination="PROJECT" idrefs="z104"></relationship>
+        <relationship name="mainfileofproject" type="1/1" destination="PROJECT"></relationship>
+        <relationship name="children" type="0/0" destination="PROJECTITEM"></relationship>
+        <relationship name="bookmarks" type="0/0" destination="BOOKMARK"></relationship>
+    </object>
+    <object type="TEXFILE" id="z109">
+        <attribute name="wasopen" type="bool">-1</attribute>
+        <attribute name="visiblerect" type="string">{{0, 386}, {586, 772}}</attribute>
+        <attribute name="lasteditdate" type="date">443831204.71257597208023071289</attribute>
+        <attribute name="istext" type="bool">1</attribute>
+        <attribute name="fileloaddate" type="date">443831219.21330100297927856445</attribute>
+        <attribute name="extension" type="string">tex</attribute>
+        <attribute name="cursor" type="string">{2726, 0}</attribute>
+        <attribute name="sortindex" type="int32">0</attribute>
+        <attribute name="name" type="string">terminology.tex</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="filepath" type="string">./terminology.tex</attribute>
+        <relationship name="parent" type="1/1" destination="PROJECTITEM"></relationship>
+        <relationship name="project" type="1/1" destination="PROJECT" idrefs="z104"></relationship>
+        <relationship name="mainfileofproject" type="1/1" destination="PROJECT" idrefs="z104"></relationship>
+        <relationship name="children" type="0/0" destination="PROJECTITEM"></relationship>
+        <relationship name="bookmarks" type="0/0" destination="BOOKMARK"></relationship>
+    </object>
+    <object type="FILE" id="z110">
+        <attribute name="wasopen" type="bool">-1</attribute>
+        <attribute name="lasteditdate" type="date">440810743.59467798471450805664</attribute>
+        <attribute name="istext" type="bool">0</attribute>
+        <attribute name="fileloaddate" type="date">440810743.59467601776123046875</attribute>
+        <attribute name="extension" type="string">png</attribute>
+        <attribute name="sortindex" type="int32">6</attribute>
+        <attribute name="name" type="string">samplefigure.png</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="filepath" type="string">./figures/samplefigure.png</attribute>
+        <relationship name="parent" type="1/1" destination="PROJECTITEM" idrefs="z111"></relationship>
+        <relationship name="project" type="1/1" destination="PROJECT" idrefs="z104"></relationship>
+        <relationship name="mainfileofproject" type="1/1" destination="PROJECT"></relationship>
+        <relationship name="children" type="0/0" destination="PROJECTITEM"></relationship>
+        <relationship name="bookmarks" type="0/0" destination="BOOKMARK"></relationship>
+    </object>
+    <object type="FOLDER" id="z111">
+        <attribute name="sortindex" type="int32">5</attribute>
+        <attribute name="name" type="string">figures</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="filepath" type="string">figures</attribute>
+        <relationship name="parent" type="1/1" destination="PROJECTITEM"></relationship>
+        <relationship name="project" type="1/1" destination="PROJECT" idrefs="z104"></relationship>
+        <relationship name="children" type="0/0" destination="PROJECTITEM" idrefs="z110"></relationship>
+    </object>
+    <object type="FILE" id="z112">
+        <attribute name="wasopen" type="bool">-1</attribute>
+        <attribute name="visiblerect" type="string">{{0, 0}, {586, 772}}</attribute>
+        <attribute name="lasteditdate" type="date">443271947.15740799903869628906</attribute>
+        <attribute name="istext" type="bool">1</attribute>
+        <attribute name="fileloaddate" type="date">443831093.89093101024627685547</attribute>
+        <attribute name="extension" type="string">sty</attribute>
+        <attribute name="cursor" type="string">{2655, 0}</attribute>
+        <attribute name="sortindex" type="int32">1</attribute>
+        <attribute name="name" type="string">localmetadata.sty</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="filepath" type="string">localmetadata.sty</attribute>
+        <relationship name="parent" type="1/1" destination="PROJECTITEM"></relationship>
+        <relationship name="project" type="1/1" destination="PROJECT" idrefs="z104"></relationship>
+        <relationship name="mainfileofproject" type="1/1" destination="PROJECT"></relationship>
+        <relationship name="children" type="0/0" destination="PROJECTITEM"></relationship>
+        <relationship name="bookmarks" type="0/0" destination="BOOKMARK"></relationship>
+    </object>
+    <object type="TEXFILE" id="z113">
+        <attribute name="wasopen" type="bool">-1</attribute>
+        <attribute name="visiblerect" type="string">{{0, 174}, {586, 772}}</attribute>
+        <attribute name="lasteditdate" type="date">443837539.76809799671173095703</attribute>
+        <attribute name="istext" type="bool">1</attribute>
+        <attribute name="fileloaddate" type="date">443837543.91363900899887084961</attribute>
+        <attribute name="extension" type="string">tex</attribute>
+        <attribute name="cursor" type="string">{3906, 0}</attribute>
+        <attribute name="sortindex" type="int32">12</attribute>
+        <attribute name="name" type="string">preface.tex</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="filepath" type="string">chapters/preface.tex</attribute>
+        <relationship name="parent" type="1/1" destination="PROJECTITEM" idrefs="z106"></relationship>
+        <relationship name="project" type="1/1" destination="PROJECT" idrefs="z104"></relationship>
+        <relationship name="mainfileofproject" type="1/1" destination="PROJECT"></relationship>
+        <relationship name="children" type="0/0" destination="PROJECTITEM"></relationship>
+        <relationship name="bookmarks" type="0/0" destination="BOOKMARK"></relationship>
+    </object>
+    <object type="TEXFILE" id="z115">
+        <attribute name="wasopen" type="bool">1</attribute>
+        <attribute name="visiblerect" type="string">{{0, 546}, {586, 817}}</attribute>
+        <attribute name="lasteditdate" type="date">444329011.50933098793029785156</attribute>
+        <attribute name="istext" type="bool">1</attribute>
+        <attribute name="fileloaddate" type="date">444329012.15467697381973266602</attribute>
+        <attribute name="extension" type="string">tex</attribute>
+        <attribute name="cursor" type="string">{5564, 0}</attribute>
+        <attribute name="sortindex" type="int32">15</attribute>
+        <attribute name="name" type="string">comparativeConcepts.tex</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="filepath" type="string">chapters/comparativeConcepts.tex</attribute>
+        <relationship name="parent" type="1/1" destination="PROJECTITEM" idrefs="z106"></relationship>
+        <relationship name="project" type="1/1" destination="PROJECT" idrefs="z104"></relationship>
+        <relationship name="mainfileofproject" type="1/1" destination="PROJECT"></relationship>
+        <relationship name="children" type="0/0" destination="PROJECTITEM"></relationship>
+        <relationship name="bookmarks" type="0/0" destination="BOOKMARK"></relationship>
+    </object>
+    <object type="FILE" id="z116">
+        <attribute name="visiblerect" type="string">{{0, 0}, {586, 627}}</attribute>
+        <attribute name="cursor" type="string">{615, 0}</attribute>
+        <attribute name="wasopen" type="bool">-1</attribute>
+        <attribute name="lasteditdate" type="date">443836311.53782802820205688477</attribute>
+        <attribute name="istext" type="bool">1</attribute>
+        <attribute name="fileloaddate" type="date">443836311.92259198427200317383</attribute>
+        <attribute name="extension" type="string">sty</attribute>
+        <attribute name="sortindex" type="int32">3</attribute>
+        <attribute name="name" type="string">localcommands.sty</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="filepath" type="string">./localcommands.sty</attribute>
+        <relationship name="parent" type="1/1" destination="PROJECTITEM"></relationship>
+        <relationship name="project" type="1/1" destination="PROJECT" idrefs="z104"></relationship>
+        <relationship name="mainfileofproject" type="1/1" destination="PROJECT"></relationship>
+        <relationship name="children" type="0/0" destination="PROJECTITEM"></relationship>
+        <relationship name="bookmarks" type="0/0" destination="BOOKMARK"></relationship>
+    </object>
+    <object type="FILE" id="z117">
+        <attribute name="visiblerect" type="string">{{0, 0}, {586, 772}}</attribute>
+        <attribute name="cursor" type="string">{232, 0}</attribute>
+        <attribute name="wasopen" type="bool">-1</attribute>
+        <attribute name="lasteditdate" type="date">443271947.15714299678802490234</attribute>
+        <attribute name="istext" type="bool">1</attribute>
+        <attribute name="fileloaddate" type="date">443831093.88452702760696411133</attribute>
+        <attribute name="extension" type="string">sty</attribute>
+        <attribute name="sortindex" type="int32">4</attribute>
+        <attribute name="name" type="string">localhyphenation.sty</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="filepath" type="string">localhyphenation.sty</attribute>
+        <relationship name="parent" type="1/1" destination="PROJECTITEM"></relationship>
+        <relationship name="project" type="1/1" destination="PROJECT" idrefs="z104"></relationship>
+        <relationship name="mainfileofproject" type="1/1" destination="PROJECT"></relationship>
+        <relationship name="children" type="0/0" destination="PROJECTITEM"></relationship>
+        <relationship name="bookmarks" type="0/0" destination="BOOKMARK"></relationship>
+    </object>
+    <object type="FILE" id="z118">
+        <attribute name="visiblerect" type="string">{{0, 0}, {586, 640}}</attribute>
+        <attribute name="cursor" type="string">{622, 0}</attribute>
+        <attribute name="wasopen" type="bool">-1</attribute>
+        <attribute name="lasteditdate" type="date">443271947.15264499187469482422</attribute>
+        <attribute name="istext" type="bool">1</attribute>
+        <attribute name="fileloaddate" type="date">443831093.88654297590255737305</attribute>
+        <attribute name="extension" type="string">sty</attribute>
+        <attribute name="sortindex" type="int32">2</attribute>
+        <attribute name="name" type="string">localpackages.sty</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="filepath" type="string">./localpackages.sty</attribute>
+        <relationship name="parent" type="1/1" destination="PROJECTITEM"></relationship>
+        <relationship name="project" type="1/1" destination="PROJECT" idrefs="z104"></relationship>
+        <relationship name="mainfileofproject" type="1/1" destination="PROJECT"></relationship>
+        <relationship name="children" type="0/0" destination="PROJECTITEM"></relationship>
+        <relationship name="bookmarks" type="0/0" destination="BOOKMARK"></relationship>
+    </object>
+    <object type="TEXFILE" id="z119">
+        <attribute name="wasopen" type="bool">-1</attribute>
+        <attribute name="visiblerect" type="string">{{0, 0}, {586, 772}}</attribute>
+        <attribute name="lasteditdate" type="date">443271947.15670400857925415039</attribute>
+        <attribute name="istext" type="bool">1</attribute>
+        <attribute name="fileloaddate" type="date">443909500.76631599664688110352</attribute>
+        <attribute name="extension" type="string">tex</attribute>
+        <attribute name="cursor" type="string">{57, 0}</attribute>
+        <attribute name="sortindex" type="int32">13</attribute>
+        <attribute name="name" type="string">language.tex</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="filepath" type="string">./chapters/language.tex</attribute>
+        <relationship name="parent" type="1/1" destination="PROJECTITEM" idrefs="z106"></relationship>
+        <relationship name="project" type="1/1" destination="PROJECT" idrefs="z104"></relationship>
+        <relationship name="mainfileofproject" type="1/1" destination="PROJECT"></relationship>
+        <relationship name="children" type="0/0" destination="PROJECTITEM"></relationship>
+        <relationship name="bookmarks" type="0/0" destination="BOOKMARK"></relationship>
+    </object>
+    <object type="TEXFILE" id="z120">
+        <attribute name="wasopen" type="bool">0</attribute>
+        <attribute name="visiblerect" type="string">{{0, 0}, {586, 817}}</attribute>
+        <attribute name="lasteditdate" type="date">443920113.50034302473068237305</attribute>
+        <attribute name="istext" type="bool">1</attribute>
+        <attribute name="fileloaddate" type="date">444328893.86919897794723510742</attribute>
+        <attribute name="extension" type="string">tex</attribute>
+        <attribute name="cursor" type="string">{84, 0}</attribute>
+        <attribute name="sortindex" type="int32">11</attribute>
+        <attribute name="name" type="string">semanticMaps.tex</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="filepath" type="string">./chapters/semanticMaps.tex</attribute>
+        <relationship name="parent" type="1/1" destination="PROJECTITEM" idrefs="z106"></relationship>
+        <relationship name="project" type="1/1" destination="PROJECT" idrefs="z104"></relationship>
+        <relationship name="mainfileofproject" type="1/1" destination="PROJECT"></relationship>
+        <relationship name="children" type="0/0" destination="PROJECTITEM"></relationship>
+        <relationship name="bookmarks" type="0/0" destination="BOOKMARK"></relationship>
+    </object>
+    <object type="TEXFILE" id="z121">
+        <attribute name="visiblerect" type="string">{{0, 0}, {586, 772}}</attribute>
+        <attribute name="cursor" type="string">{209, 0}</attribute>
+        <attribute name="wasopen" type="bool">-1</attribute>
+        <attribute name="lasteditdate" type="date">443271947.15680098533630371094</attribute>
+        <attribute name="istext" type="bool">1</attribute>
+        <attribute name="fileloaddate" type="date">443831093.90292000770568847656</attribute>
+        <attribute name="extension" type="string">tex</attribute>
+        <attribute name="sortindex" type="int32">10</attribute>
+        <attribute name="name" type="string">writing.tex</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="filepath" type="string">./chapters/writing.tex</attribute>
+        <relationship name="parent" type="1/1" destination="PROJECTITEM" idrefs="z106"></relationship>
+        <relationship name="project" type="1/1" destination="PROJECT" idrefs="z104"></relationship>
+        <relationship name="mainfileofproject" type="1/1" destination="PROJECT"></relationship>
+        <relationship name="children" type="0/0" destination="PROJECTITEM"></relationship>
+        <relationship name="bookmarks" type="0/0" destination="BOOKMARK"></relationship>
+    </object>
+    <object type="TEXFILE" id="z122">
+        <attribute name="wasopen" type="bool">-1</attribute>
+        <attribute name="visiblerect" type="string">{{0, 0}, {586, 772}}</attribute>
+        <attribute name="lasteditdate" type="date">443914525.92724698781967163086</attribute>
+        <attribute name="istext" type="bool">1</attribute>
+        <attribute name="fileloaddate" type="date">443914528.91184997558593750000</attribute>
+        <attribute name="extension" type="string">tex</attribute>
+        <attribute name="cursor" type="string">{472, 0}</attribute>
+        <attribute name="sortindex" type="int32">9</attribute>
+        <attribute name="name" type="string">historicalComparison.tex</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="filepath" type="string">./chapters/historicalComparison.tex</attribute>
+        <relationship name="parent" type="1/1" destination="PROJECTITEM" idrefs="z106"></relationship>
+        <relationship name="project" type="1/1" destination="PROJECT" idrefs="z104"></relationship>
+        <relationship name="mainfileofproject" type="1/1" destination="PROJECT"></relationship>
+        <relationship name="children" type="0/0" destination="PROJECTITEM"></relationship>
+        <relationship name="bookmarks" type="0/0" destination="BOOKMARK"></relationship>
+    </object>
+    <object type="TEXFILE" id="z123">
+        <attribute name="wasopen" type="bool">3</attribute>
+        <attribute name="visiblerect" type="string">{{0, 1507}, {586, 817}}</attribute>
+        <attribute name="lasteditdate" type="date">444865562.14685600996017456055</attribute>
+        <attribute name="istext" type="bool">1</attribute>
+        <attribute name="fileloaddate" type="date">444865574.07320898771286010742</attribute>
+        <attribute name="extension" type="string">tex</attribute>
+        <attribute name="cursor" type="string">{10836, 0}</attribute>
+        <attribute name="sortindex" type="int32">8</attribute>
+        <attribute name="name" type="string">typology.tex</attribute>
+        <attribute name="isexpanded" type="bool">0</attribute>
+        <attribute name="filepath" type="string">./chapters/typology.tex</attribute>
+        <relationship name="parent" type="1/1" destination="PROJECTITEM" idrefs="z106"></relationship>
+        <relationship name="project" type="1/1" destination="PROJECT" idrefs="z104"></relationship>
+        <relationship name="mainfileofproject" type="1/1" destination="PROJECT"></relationship>
+        <relationship name="children" type="0/0" destination="PROJECTITEM"></relationship>
+        <relationship name="bookmarks" type="0/0" destination="BOOKMARK"></relationship>
+    </object>
+</database>
