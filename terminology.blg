@@ -10,6 +10,7 @@ A level-1 auxiliary file: chapters/typology.aux
 A level-1 auxiliary file: chapters/semanticMaps.aux
 A level-1 auxiliary file: chapters/historicalComparison.aux
 A level-1 auxiliary file: chapters/writing.aux
+A level-1 auxiliary file: chapters/measurement.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -28,7 +29,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 You've used 1 entry,
             6047 wiz_defined-function locations,
-            1137 strings with 8319 characters,
+            1138 strings with 8343 characters,
 and the built_in function-call counts, 1306 in all, are:
 = -- 64
 > -- 58
