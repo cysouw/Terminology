@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014) (preloaded format=xelatex 2014.10.30)  12 APR 2015 22:28
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014) (preloaded format=xelatex 2014.10.30)  7 MAY 2015 18:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -2035,25 +2035,25 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\smaller ' on input line 1.
 
-
-Overfull \hbox (6.29288pt too wide) in paragraph at lines 13--13
-\EU1/LinLibertine_R_B.otf(0)/m/sc/10.95 meaning \EU1/LinLibertine_R_B.otf(0)/m/
-n/10.95 ($\OMS/cmsy/m/n/10.95 !$ []\EU1/LinLibertine_R_B.otf(0)/m/n/10.95 1.4[]
-), as well as from a \EU1/LinLibertine_R_B.otf(0)/bx/sc/10.95 physical-linguist
-ic perspective \EU1/LinLibertine_R_B.otf(0)/m/n/10.95 (or ‘outside-
- []
-
 [1
 
 
 
 ]
-Overfull \hbox (2.52504pt too wide) in paragraph at lines 34--35
+Overfull \hbox (5.96437pt too wide) in paragraph at lines 19--19
+\EU1/LinLibertine_R_B.otf(0)/m/sc/10.95 meaning \EU1/LinLibertine_R_B.otf(0)/m/
+n/10.95 ($\OMS/cmsy/m/n/10.95 !$ []\EU1/LinLibertine_R_B.otf(0)/m/n/10.95 1.5[]
+), as well as from a \EU1/LinLibertine_R_B.otf(0)/bx/sc/10.95 physical-linguist
+ic perspective \EU1/LinLibertine_R_B.otf(0)/m/n/10.95 (or ‘outside-
+ []
+
+[2]
+Overfull \hbox (2.52504pt too wide) in paragraph at lines 40--41
 []\EU1/LinLibertine_R_B.otf(0)/m/n/10.95 semasiological vs. onomasiological app
 roach: Because we don’t know too much
  []
 
-[2]) [3]
+) [3]
 \openout2 = `chapters/language.aux'.
 
  (./chapters/language.tex [4
@@ -2070,27 +2070,6 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\smaller ' on input line 1.
-
-) [5]
-\openout2 = `chapters/languageSpecificTopics.aux'.
-
- (./chapters/languageSpecificTopics.tex [6
-
-
-
-
-]
-Chapter 3.
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\newline' on input line 1.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\smaller ' on input line 1.
-
-
-LaTeX Warning: Reference `doculect' on page 7 undefined on input line 8.
 
 .................................................
 . fontspec info: "defining-font"
@@ -2152,11 +2131,36 @@ pping=tex-text;+liga;+pnum;+lnum;"
 . and font adjustment code:
 . \fontdimen 7\font =0\fontdimen 7\font 
 .................................................
-[7]
+[5]) [6]
+\openout2 = `chapters/languageSpecificTopics.aux'.
 
-LaTeX Warning: Reference `doculect' on page 8 undefined on input line 16.
+ (./chapters/languageSpecificTopics.tex
+Chapter 3.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\newline' on input line 1.
 
 
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\smaller ' on input line 1.
+
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'LinLibertine_R_B.otf(1)' created for font
+. 'LinLibertine_R_B.otf' with options [ Ligatures={TeX,Common},
+. Path=./LSP/lsp-fonts/, PunctuationSpace=0, Numbers={Proportional}, BoldFont
+. = LinLibertine_RZ_B.otf , ItalicFont = LinLibertine_RI_B.otf ,
+. BoldItalicFont = LinLibertine_RZI_B.otf ,Numbers=Lining].
+. 
+. This font family consists of the following shapes:
+.................................................
+[7
+
+
+
+
+]
 Overfull \hbox (5.56549pt too wide) in paragraph at lines 16--17
 []\EU1/LinLibertine_R_B.otf(0)/m/n/10.95 Utterances belong to a specific docule
 ct (‘language’), i.e. utterances are language-
@@ -2180,9 +2184,6 @@ Overfull \hbox (2.8271pt too wide) in paragraph at lines 24--25
  []
 
 [8]
-
-LaTeX Warning: Reference `languoid' on page 9 undefined on input line 28.
-
 
 LaTeX Warning: Reference `homology' on page 9 undefined on input line 28.
 
@@ -2210,9 +2211,6 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 . 
 . This font family consists of the following shapes:
 .................................................
-
-LaTeX Warning: Reference `glossonym' on page 11 undefined on input line 10.
-
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -2338,9 +2336,6 @@ LaTeX Warning: Reference `homology' on page 15 undefined on input line 4.
 
 
 ]
-
-LaTeX Warning: Reference `languoid' on page 16 undefined on input line 18.
-
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -2352,7 +2347,7 @@ LaTeX Warning: Reference `languoid' on page 16 undefined on input line 18.
 . 
 . This font family consists of the following shapes:
 .................................................
-[16] [17]
+ [16] [17]
 .................................................
 . fontspec info: "defining-font"
 . 
@@ -2474,10 +2469,10 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 
 
+] [29
+
+
 ]
-
-LaTeX Warning: Empty bibliography on input line 92.
-
 No file terminology.and.
 No file terminology.lnd.
 No file terminology.snd.
@@ -2499,12 +2494,12 @@ Package logreq Info: Writing requests to 'terminology.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40170 strings out of 493734
- 727465 string characters out of 6146347
+ 40285 strings out of 493734
+ 729526 string characters out of 6146347
  1128548 words of memory out of 5000000
- 42851 multiletter control sequences out of 15000+600000
+ 42966 multiletter control sequences out of 15000+600000
  12036 words of font info for 92 fonts, out of 8000000 for 9000
  1331 hyphenation exceptions out of 8191
- 66i,11n,90p,10502b,708s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 66i,11n,90p,10502b,855s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ./terminology.pdf (36 pages).
+Output written on ./terminology.pdf (37 pages).

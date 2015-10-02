@@ -16,6 +16,8 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {7}Homology and stratum \newline \smaller \textit {Historical language comparison}}{23}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Code point, glyph and grapheme \newline \smaller \textit {Writing systems across languages}}{25}{chapter.8}
+\contentsline {chapter}{\numberline {8}Character, glyph and grapheme \newline \smaller \textit {Writing systems across languages}}{25}{chapter.8}
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {9}Measurement and metric \newline \smaller \textit {Towards quantitative language comparison}}{27}{chapter.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of references}{29}{section*.3}
